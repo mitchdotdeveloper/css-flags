@@ -6,11 +6,9 @@ body {
   background-color: rgb(247, 234, 211);
 }
 
-
 .flagContainer {
-  display: flex;
+  height: 100px;
   width: 150px;
-  flex-direction: column;
   margin-bottom: 10px;
 }
 
@@ -25,9 +23,6 @@ body {
 }
 
 /* Colombia */
-#columbia {
-  height: 100px;
-}
 #columbia > .top {
   height: 50%;
   background-color: rgb(246, 209, 75);
@@ -43,8 +38,8 @@ body {
 
 /* Ireland */
 #ireland {
+  display: flex;
   flex-direction: row;
-  height: 100px;
 }
 #ireland > .left {
   width: 100%;
@@ -59,20 +54,207 @@ body {
   background-color: rgb(241, 141, 79);
 }
 /* France */
+#france {
+  display: block;
+  font-size: 0;
+}
+#france > .left {
+  height: inherit;
+  width:50px;
+  display: inline-block;
+  background-color: rgb(0, 17, 103);
+}
+#france > .middle {
+  height: inherit;
+  width:50px;
+  display: inline-block;
+  background-color: white;
+}
+#france > .right {
+  height: inherit;
+  width:50px;
+  display: inline-block;
+  background-color: rgb(148, 28, 23);
+}
 
 /* Benin */
+#benin > .left-container {
+  float: left;
+  height: inherit;
+  width: 60px;
+  background-color: rgb(58, 132, 86);
+}
+#benin > .right-container {
+  float: left;
+  height: inherit;
+  width: 90px
+}
+#benin > .right-container > .top {
+  height: 50%;
+  width: 100%;
+  background-color: rgb(246, 209, 75);
+}
+#benin > .right-container > .bottom {
+  height: 50%;
+  width: 100%;
+  background-color: rgb(214, 50, 55);
+}
 
 /* Sweden */
+#sweden {
+  position: relative;
+  background-color: rgb(40, 106, 162);
+}
+#sweden > .vertical-stripe {
+  position: absolute;
+  height: inherit;
+  width: 20px;
+  left: 30%;
+  background-color: rgb(247, 204, 70);
+}
+#sweden > .horizontal-stripe {
+  position: absolute;
+  height: 20px;
+  width: inherit;
+  top: 40%;
+  background-color: rgb(247, 204, 70);
+}
 
 /* Switzerland */
+#switzerland {
+  height: 20vmin;
+  width: 20vmin;
+  padding: 18px;
+  background-color: rgb(235, 50, 35);
+}
+#switzerland > .cross {
+  position: relative;
+  height: inherit;
+  width: inherit;
+}
+#switzerland > .cross > .vertical-stripe {
+  position: absolute;
+  height: inherit;
+  width: 5vmin;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+}
+#switzerland > .cross > .horizontal-stripe {
+  position: absolute;
+  height: 5vmin;
+  width: inherit;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+}
 
 /* Tonga */
+#tonga {
+  background-color: rgb(178, 35, 24);
+}
+#tonga > .top-left-element {
+  height: 8vmin;
+  width: 8vmin;
+  padding: 10px;
+  background-color: white;
+}
+#tonga > .top-left-element > .cross {
+  position: relative;
+  height: inherit;
+  width: inherit;
+}
+#tonga > .top-left-element > .cross > .vertical-stripe {
+  position: absolute;
+  height: inherit;
+  width: 1.8vmin;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(178, 35, 24);
+}
+#tonga > .top-left-element > .cross > .horizontal-stripe {
+  position: absolute;
+  height: 1.8vmin;
+  width: inherit;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgb(178, 35, 24);
+}
 
 /* Japan */
+#japan {
+  display: flex;
+  background-color: white;
+}
+#japan > .circle {
+  height: 60px;
+  width: 60px;
+  margin: auto;
+  border-radius: 50%;
+  background-color: rgb(190, 44, 46);
+}
 
 /* Canada */
+#canada {
+  position: relative;
+  background-color: rgb(197, 60, 44);
+}
+#canada > .center {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+}
+#canada > .center::before {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 10px;
+  left: -8px;
+  content: '';
+  background-image: url('./assets/images/canada_logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotateZ(29deg);
+}
 
 /* Norway */
+#norway {
+  position: relative;
+  background-color: rgb(221, 64, 57);
+}
+#norway > .vertical-stripe-container, #norway > .horizontal-stripe-container,
+#norway > .vertical-stripe,
+#norway > .horizontal-stripe {
+  position: absolute;
+  background-color: white;
+}
+#norway > .vertical-stripe-container,
+#norway > .vertical-stripe {
+  height: 100%;
+  width: 25px;
+  left: 30%;
+}
+#norway > .horizontal-stripe-container,
+#norway > .horizontal-stripe {
+  height: 25px;
+  width: 100%;
+  top: 40%;
+}
+#norway > .vertical-stripe,
+#norway > .horizontal-stripe {
+  background-color: rgb(7, 42, 100);
+}
+#norway > .vertical-stripe {
+  left: 34%;
+  width: 12.5px;
+}
+#norway > .horizontal-stripe {
+  top: 46%;
+  height: 12.5px;
+}
 
 /* Greece */
 
