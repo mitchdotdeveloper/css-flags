@@ -102,6 +102,24 @@ body {
 }
 
 /* Sweden */
+#sweden {
+  position: relative;
+  background-color: rgb(40, 106, 162);
+}
+#sweden > .vertical-stripe {
+  position: absolute;
+  height: inherit;
+  width: 20px;
+  left: 30%;
+  background-color: rgb(247, 204, 70);
+}
+#sweden > .horizontal-stripe {
+  position: absolute;
+  height: 20px;
+  width: inherit;
+  top: 40%;
+  background-color: rgb(247, 204, 70);
+}
 
 /* Switzerland */
 
