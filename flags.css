@@ -79,6 +79,27 @@ body {
 }
 
 /* Benin */
+#benin > .left-container {
+  float: left;
+  height: inherit;
+  width: 60px;
+  background-color: rgb(58, 132, 86);
+}
+#benin > .right-container {
+  float: left;
+  height: inherit;
+  width: 90px
+}
+#benin > .right-container > .top {
+  height: 50%;
+  width: 100%;
+  background-color: rgb(246, 209, 75);
+}
+#benin > .right-container > .bottom {
+  height: 50%;
+  width: 100%;
+  background-color: rgb(214, 50, 55);
+}
 
 /* Sweden */
 
