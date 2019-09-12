@@ -123,8 +123,8 @@ body {
 
 /* Switzerland */
 #switzerland {
-  height: 40px;
-  width: 40px;
+  height: 20vmin;
+  width: 20vmin;
   padding: 18px;
   background-color: rgb(235, 50, 35);
 }
@@ -136,14 +136,14 @@ body {
 #switzerland > .cross > .vertical-stripe {
   position: absolute;
   height: inherit;
-  width: 13px;
+  width: 5vmin;
   left: 50%;
   transform: translateX(-50%);
   background-color: white;
 }
 #switzerland > .cross > .horizontal-stripe {
   position: absolute;
-  height: 13px;
+  height: 5vmin;
   width: inherit;
   top: 50%;
   transform: translateY(-50%);
@@ -151,6 +151,36 @@ body {
 }
 
 /* Tonga */
+#tonga {
+  background-color: rgb(178, 35, 24);
+}
+#tonga > .top-left-element {
+  height: 8vmin;
+  width: 8vmin;
+  padding: 10px;
+  background-color: white;
+}
+#tonga > .top-left-element > .cross {
+  position: relative;
+  height: inherit;
+  width: inherit;
+}
+#tonga > .top-left-element > .cross > .vertical-stripe {
+  position: absolute;
+  height: inherit;
+  width: 1.8vmin;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(178, 35, 24);
+}
+#tonga > .top-left-element > .cross > .horizontal-stripe {
+  position: absolute;
+  height: 1.8vmin;
+  width: inherit;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgb(178, 35, 24);
+}
 
 /* Japan */
 
