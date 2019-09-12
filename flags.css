@@ -6,7 +6,6 @@ body {
   background-color: rgb(247, 234, 211);
 }
 
-
 .flagContainer {
   height: 100px;
   width: 150px;
@@ -195,8 +194,31 @@ body {
   background-color: rgb(190, 44, 46);
 }
 
-
 /* Canada */
+#canada {
+  position: relative;
+  background-color: rgb(197, 60, 44);
+}
+#canada > .center {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+}
+#canada > .center::before {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 10px;
+  left: -8px;
+  content: '';
+  background-image: url('./assets/images/canada_logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotateZ(29deg);
+}
 
 /* Norway */
 
