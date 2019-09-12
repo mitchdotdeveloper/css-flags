@@ -14,11 +14,11 @@ body {
 }
 
 /* Indonesia */
-.top-half {
+#indonesia > .top-half {
   height: 50px;
   background-color: red;
 }
-.bottom-half {
+#indonesia > .bottom-half {
   height: 50px;
   background-color: white;
 }
