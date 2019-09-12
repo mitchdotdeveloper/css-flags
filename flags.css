@@ -122,6 +122,33 @@ body {
 }
 
 /* Switzerland */
+#switzerland {
+  height: 40px;
+  width: 40px;
+  padding: 18px;
+  background-color: rgb(235, 50, 35);
+}
+#switzerland > .cross {
+  position: relative;
+  height: inherit;
+  width: inherit;
+}
+#switzerland > .cross > .vertical-stripe {
+  position: absolute;
+  height: inherit;
+  width: 13px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+}
+#switzerland > .cross > .horizontal-stripe {
+  position: absolute;
+  height: 13px;
+  width: inherit;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+}
 
 /* Tonga */
 
