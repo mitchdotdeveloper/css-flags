@@ -183,6 +183,18 @@ body {
 }
 
 /* Japan */
+#japan {
+  display: flex;
+  background-color: white;
+}
+#japan > .circle {
+  height: 60px;
+  width: 60px;
+  margin: auto;
+  border-radius: 50%;
+  background-color: rgb(190, 44, 46);
+}
+
 
 /* Canada */
 
