@@ -3,6 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: rgb(247, 234, 211);
 }
 
 
@@ -14,18 +15,49 @@ body {
 }
 
 /* Indonesia */
-.top-half {
+#indonesia > .top-half {
   height: 50px;
   background-color: red;
 }
-.bottom-half {
+#indonesia > .bottom-half {
   height: 50px;
   background-color: white;
 }
+
 /* Colombia */
+#columbia {
+  height: 100px;
+}
+#columbia > .top {
+  height: 50%;
+  background-color: rgb(246, 209, 75);
+}
+#columbia > .middle {
+  height: 25%;
+  background-color: rgb(12, 59, 142);
+}
+#columbia > .bottom {
+  height: 25%;
+  background-color: rgb(190, 44, 47);
+}
 
 /* Ireland */
-
+#ireland {
+  flex-direction: row;
+  height: 100px;
+}
+#ireland > .left {
+  width: 100%;
+  background-color: rgb(71, 152, 103);
+}
+#ireland > .middle {
+  width: 100%;
+  background-color: white;
+}
+#ireland > .right {
+  width: 100%;
+  background-color: rgb(241, 141, 79);
+}
 /* France */
 
 /* Benin */
