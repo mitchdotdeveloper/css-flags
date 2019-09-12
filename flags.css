@@ -42,7 +42,22 @@ body {
 }
 
 /* Ireland */
-
+#ireland {
+  flex-direction: row;
+  height: 100px;
+}
+#ireland > .left {
+  width: 100%;
+  background-color: rgb(71, 152, 103);
+}
+#ireland > .middle {
+  width: 100%;
+  background-color: white;
+}
+#ireland > .right {
+  width: 100%;
+  background-color: rgb(241, 141, 79);
+}
 /* France */
 
 /* Benin */
