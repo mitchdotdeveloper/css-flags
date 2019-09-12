@@ -221,6 +221,40 @@ body {
 }
 
 /* Norway */
+#norway {
+  position: relative;
+  background-color: rgb(221, 64, 57);
+}
+#norway > .vertical-stripe-container, #norway > .horizontal-stripe-container,
+#norway > .vertical-stripe,
+#norway > .horizontal-stripe {
+  position: absolute;
+  background-color: white;
+}
+#norway > .vertical-stripe-container,
+#norway > .vertical-stripe {
+  height: 100%;
+  width: 25px;
+  left: 30%;
+}
+#norway > .horizontal-stripe-container,
+#norway > .horizontal-stripe {
+  height: 25px;
+  width: 100%;
+  top: 40%;
+}
+#norway > .vertical-stripe,
+#norway > .horizontal-stripe {
+  background-color: rgb(7, 42, 100);
+}
+#norway > .vertical-stripe {
+  left: 34%;
+  width: 12.5px;
+}
+#norway > .horizontal-stripe {
+  top: 46%;
+  height: 12.5px;
+}
 
 /* Greece */
 
