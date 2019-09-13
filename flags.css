@@ -257,8 +257,56 @@ body {
 }
 
 /* Greece */
-
+#greece {
+  position: relative;
+  background-color: white;
+}
+#greece > .bar {
+  height: 11.2px;
+  width: 100%;
+}
+#greece > .bar:nth-child(even) {
+  background-color: rgb(37, 95, 169);
+}
+#greece > .top-left-element {
+  height: 12.3vmin;
+  width: 12.3vmin;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(37, 95, 169);
+}
+#greece > .top-left-element > .cross {
+  position: relative;
+  height: inherit;
+  width: inherit;
+}
+#greece > .top-left-element > .cross > .vertical-stripe {
+  position: absolute;
+  height: inherit;
+  width: 11.2px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+}
+#greece > .top-left-element > .cross > .horizontal-stripe {
+  position: absolute;
+  height: 11.2px;
+  width: inherit;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+}
 /* Somalia */
+#somalia {
+  text-align: center;
+  background-color: rgb(80, 138, 215);
+}
+#somalia > .star {
+  line-height: 100px;
+  font-size: 3em;
+  color: white;
+}
 
 /* Chile */
 
