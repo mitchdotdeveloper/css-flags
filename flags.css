@@ -309,6 +309,28 @@ body {
 }
 
 /* Chile */
+#chile {
+  text-align: center;
+  background-color: white;
+}
+#chile > .content-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+#chile > .content-container > .star {
+  line-height: 50px;
+  font-size: 1.5em;
+  height: 50px;
+  width: 50px;
+  color: white;
+  background-color: rgb(10, 61, 160);
+}
+#chile > .content-container > .stripe {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(197, 60, 44);
+}
 
 /* Turkey */
 
