@@ -333,6 +333,46 @@ body {
 }
 
 /* Turkey */
+#turkey {
+  position: relative;
+  background-color: rgb(209, 46, 40);
+}
+
+#turkey > .content-container {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#turkey > .content-container > .crescent {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+#turkey > .content-container > .crescent > .occlusion {
+  height: 40px;
+  width: 40px;
+  margin-right:-1px;
+  border-radius: 50%;
+  background-color: rgb(209, 46, 40);
+}
+
+#turkey > .content-container > .star {
+  font-size: 27px;
+  margin-left: -5px;
+  color: white;
+  transform: rotate(-15deg);
+}
 
 /* China */
 
